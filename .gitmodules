@@ -1,0 +1,3 @@
+[submodule "yoga"]
+	path = yoga
+	url = git@github.com:facebook/yoga.git
