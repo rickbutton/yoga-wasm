@@ -29,6 +29,11 @@ node.setMaxWidth(100);
 node.computeLayout(100, 100, yoga.DIRECTION_LTR);
 ```
 
-### Contributing
+## Prior Art
+
+[`yoga-dom`](https://github.com/vincentriemer/yoga-dom) is another attempt to port Yoga to JS with WebAssembly. I leaned heavily on 
+[viankakrisna](https://github.com/viankakrisna)'s `embind` bindings when porting the latest version of Yoga's bindings from `nbind` to `embind`.
+
+## Contributing
 
 Open a PR or file an issue!
