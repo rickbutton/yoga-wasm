@@ -2,13 +2,15 @@
   "name": "yoga",
   "version": "0.0.1",
   "description": "The Yoga layout engine, but in WebAssembly",
+  "keywords": ["wasm", "webassembly", "yoga", "yoga-layout", "flexbox"],
+  "homepage": "https://github.com/rickbutton/yoga-wasm",
   "main": "build/index.cjs.js",
   "module": "build/index.esm.js",
   "types": "build/index.cjs.d.ts",
   "files": [
     "build"
   ],
-  "author": "Rick Button <rick@button.dev>",
+  "author": "Rick Button <rick@button.dev> (https://button.dev)",
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.2",
