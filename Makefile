@@ -10,6 +10,7 @@ cpp: dir
 		-Iyoga \
 		-fno-exceptions \
 		-s WASM=1 \
+		-s WASM_ASYNC_COMPILATION=0 \
 		-s EXPORTED_RUNTIME_METHODS=[] \
 		-s DISABLE_EXCEPTION_CATCHING=1 \
 		-s AGGRESSIVE_VARIABLE_ELIMINATION=1 \

@@ -1,12 +1,10 @@
 import Yoga from "../build/yoga";
 import entry from "../yoga/javascript/sources/entry-common";
 
-export default new Promise(function(resolve) {
-    Yoga().then(function(Module) {
-        function bind(_name, proto) {
-            return proto;
-        }
+const mod = Yoga();
 
-        resolve(entry(bind, Module));
-    });
-});
+function bind(name, proto) {
+    return proto;
+}
+
+export default entry(bind, mod);

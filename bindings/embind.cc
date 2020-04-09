@@ -51,9 +51,10 @@ EMSCRIPTEN_BINDINGS(Node) {
 
   class_<Node>("Node")
     .constructor<>(&Node::createDefault, allow_raw_pointers())
-    .class_function<>("createWithConfig", &Node::createWithConfig, allow_raw_pointers())
 
-    .function("destroy", &Node::destroy, allow_raw_pointers())
+    .class_function<>("createDefault", &Node::createDefault, allow_raw_pointers())
+    .class_function<>("createWithConfig", &Node::createWithConfig, allow_raw_pointers())
+    .class_function<>("destroy", &Node::destroy, allow_raw_pointers())
     .function("reset", &Node::reset)
 
     .function("copyStyle", &Node::copyStyle)
