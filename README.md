@@ -26,7 +26,7 @@ const node = yoga.Node.create();
 
 node.setMaxWidth(100);
 
-node.computeLayout(100, 100, yoga.DIRECTION_LTR);
+node.calculateLayout(100, 100, yoga.DIRECTION_LTR);
 ```
 
 ## Prior Art
