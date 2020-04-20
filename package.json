@@ -1,6 +1,6 @@
 {
   "name": "yoga-wasm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The Yoga layout engine, but in WebAssembly",
   "keywords": [
     "wasm",
